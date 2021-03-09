@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <script src="https://kit.fontawesome.com/f10a3754d1.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Match the Pairs! - Memory Game</title>
+</head>
+<body>
+<!--------------------------------------------------------------------------------Navigation Buttons-->
+<div id="memory-game">
+    <div id="navigation">
+        <div id="navigation-inner">
+            <div class="nav-btn">
+                <button id="reset-btn">Reset</button>
+            </div>
+            <div class="nav-btn">
+                <button id="instructions-btn">Instructions</button>
+            </div>
+            <div class="nav-btn">
+                <button id="difficulty-btn">Difficulty</button>
+            </div>
+            <div class="settings">
+                <button id="settings-btn">Settings</button>
+            </div>
+        </div>
+    </div>
+    <div id="gameplay">
+        <div id="game">
+            <div id="title">
+                <h1>Match the Pairs!</h1>
+            </div>
+            <div id="grid">
+                <div id="grid-inner">
+                    <section class="memory-game">
+                        <div class="memory-card" data-framework="blue">
+                            <img class="front-face" src="assets/images/blue.png" alt="blue">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="blue">
+                            <img class="front-face" src="assets/images/blue.png" alt="blue">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="green">
+                            <img class="front-face" src="assets/images/green.png" alt="green">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="green">
+                            <img class="front-face" src="assets/images/green.png" alt="green">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="orange">
+                            <img class="front-face" src="assets/images/orange.png" alt="orange">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="orange">
+                            <img class="front-face" src="assets/images/orange.png" alt="orange">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="pink">
+                            <img class="front-face" src="assets/images/pink.png" alt="pink">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="pink">
+                            <img class="front-face" src="assets/images/pink.png" alt="pink">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="red">
+                            <img class="front-face" src="assets/images/red5.png" alt="red">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="red">
+                            <img class="front-face" src="assets/images/red5.png" alt="red">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="yellow">
+                            <img class="front-face" src="assets/images/yellow.png" alt="yellow">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="yellow">
+                            <img class="front-face" src="assets/images/yellow.png" alt="yellow">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="blue">
+                            <img class="front-face" src="assets/images/blue.png" alt="blue">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="blue">
+                            <img class="front-face" src="assets/images/blue.png" alt="blue">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="green">
+                            <img class="front-face" src="assets/images/green.png" alt="green">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="green">
+                            <img class="front-face" src="assets/images/green.png" alt="green">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="orange">
+                            <img class="front-face" src="assets/images/orange.png" alt="orange">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="orange">
+                            <img class="front-face" src="assets/images/orange.png" alt="orange">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="pink">
+                            <img class="front-face" src="assets/images/pink.png" alt="pink">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="pink">
+                            <img class="front-face" src="assets/images/pink.png" alt="pink">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="red">
+                            <img class="front-face" src="assets/images/red5.png" alt="red">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="red">
+                            <img class="front-face" src="assets/images/red5.png" alt="red">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="yellow">
+                            <img class="front-face" src="assets/images/yellow.png" alt="yellow">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                        <div class="memory-card" data-framework="yellow">
+                            <img class="front-face" src="assets/images/yellow.png" alt="yellow">
+                            <img class="back-face" src="assets/images/js3.png" alt="js badge">
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+        <div id="progress">
+            <div id="progress-inner">
+                <div id="highscore">
+                    <p>Highscore:</p>
+                </div>
+                <div id="objectives">
+                    <p>Objectives remaining:</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="assets/js/index.js"></script>
+<!--Credit: Template code taken from Link, heavily modified-->
+</body>
+</html>
