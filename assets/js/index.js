@@ -1,3 +1,10 @@
+/*var myMusic;
+
+function startGame() {
+  myMusic = new sound("background.mp3");
+  myMusic.play();
+}*/
+
 const cards = document.querySelectorAll('.memory-card');
 
 let hasFlippedCard = false;
@@ -79,5 +86,23 @@ span.onclick = function() {
 window.onclick = function(event) {
   if (event.target == modal) {
     modal.style.display = "none";
+  }
+}
+
+var settingsModal = document.getElementById("settingsModal");
+var settingsBtn = document.getElementById("settings-btn");
+var settingsSpan = document.getElementById("settingsSpan");
+
+settingsBtn.onclick = function() {
+  settingsModal.style.display = "block";
+}
+
+settingsSpan.onclick = function() {
+  settingsModal.style.display = "none";
+}
+
+window.onclick = function(event) {
+  if (event.target == settingsModal) {
+    setingsModal.style.display = "none";
   }
 }
