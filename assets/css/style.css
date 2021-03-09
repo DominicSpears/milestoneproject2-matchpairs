@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: white;
     height: 100vh;
     position: relative;
 }
@@ -114,7 +114,7 @@ h1 {
 
 .easy-game {
     display: flex;
-    border: 2px solid green;
+    border: 2px solid purple;
 }
 
 .med-game {

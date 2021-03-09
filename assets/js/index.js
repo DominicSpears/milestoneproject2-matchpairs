@@ -73,21 +73,21 @@ var hardBtn = document.getElementById("hard");
 var modalDiff = document.getElementsByClassName("d-modal")[0]; 
 
 easyBtn.onclick = function() {
-    modalDiff.style.display = "none"
+    modalDiff.style.display = "none";
     sectionEasy. style.display = "flex";
     sectionMed.style.display = "none";
     sectionHard.style.display = "none";
 }
 
 medBtn.onclick = function() {
-    modalDiff.style.display = "none"
+    modalDiff.style.display = "none";
     sectionEasy.style.display = "none";
     sectionMed.style.display = "flex";
     sectionHard.style.display = "none";
 }
 
 hardBtn.onclick = function() {
-    modalDiff.style.display = "none"
+    modalDiff.style.display = "none";
     sectionEasy.style.display = "none";
     sectionMed.style.display = "none";
     sectionHard.style.display = "flex";
