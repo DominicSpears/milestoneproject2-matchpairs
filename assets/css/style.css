@@ -26,7 +26,7 @@ body {
     -o-box-shadow: 0 0 50px rgb(0, 225, 255);
 }
 
-/*-------------------------------------------Section 1-Navigation Buttons*/
+/*-------------------------------------------Section 1-Title / Progress*/
 #progress {
     /*background-color: red;*/
     height: 20%;
@@ -167,7 +167,7 @@ h1 {
 }
 
 
-/*-------------------------------------------Section 3-Progress*/
+/*-------------------------------------------Section 3-Navigation*/
 #navigation {
     /*background-color: green;*/
     height: 100%;
@@ -184,83 +184,27 @@ h1 {
 }
 
 .nav-btn {
-    width: 20%;
-    height: 100%;
-    margin-left: 30px;
-    float: left;
+    width: 90%;
+    height: 25%;
+    margin: auto;
     position: relative;
+    /*border: 2px solid red;*/
 }
 
-#reset-btn {
-    width: 100%;
-    height: 50%;
-    border-radius: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 225, 255);
-    color: rgb(0, 225, 255);
-    background-color: black;
-    box-shadow: 0 0 30px rgb(0, 225, 255);
-    -moz-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -webkit-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -o-box-shadow: 0 0 30px rgb(0, 225, 255);
-}
-
-#instructions-btn {
-    width: 100%;
-    height: 50%;
-    border-radius: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 225, 255);
-    background-color: black;
-    box-shadow: 0 0 30px rgb(0, 225, 255);
-    -moz-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -webkit-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -o-box-shadow: 0 0 30px rgb(0, 225, 255);
-}
-
-#difficulty-btn {
-    width: 100%;
-    height: 50%;
-    border-radius: 15px;    
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: rgb(0, 225, 255);
-    background-color: black;
-    box-shadow: 0 0 30px rgb(0, 225, 255);
-    -moz-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -webkit-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -o-box-shadow: 0 0 30px rgb(0, 225, 255);
-}
-
-.settings {
-    width: 10%;
-    height: 100%;
-    float: right;
-    margin-right: 30px;
-    position: relative;
-    
-}
-
+#reset-btn,
+#instructions-btn,
+#difficulty-btn,
 #settings-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
     width: 100%;
     height: 50%;
     border-radius: 15px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     color: rgb(0, 225, 255);
     background-color: black;
-    box-shadow: 0 0 30px rgb(0, 225, 255);
-    -moz-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -webkit-box-shadow: 0 0 30px rgb(0, 225, 255);
-    -o-box-shadow: 0 0 30px rgb(0, 225, 255);
+    box-shadow: 0 0 15px rgb(0, 225, 255);
+    -moz-box-shadow: 0 0 15px rgb(0, 225, 255);
+    -webkit-box-shadow: 0 0 15px rgb(0, 225, 255);
+    -o-box-shadow: 0 0 15px rgb(0, 225, 255);
 }
